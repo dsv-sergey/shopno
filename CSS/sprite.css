@@ -1,0 +1,59 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-AudioPro {
+  background-image: url(sprite.png);
+  background-position: -130px -60px;
+  width: 120px;
+  height: 60px;
+}
+.icon-Infinity {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 130px;
+  height: 60px;
+}
+.icon-Logo {
+  background-image: url(sprite.png);
+  background-position: 0px -180px;
+  width: 113px;
+  height: 46px;
+}
+.icon-Menue {
+  background-image: url(sprite.png);
+  background-position: -113px -180px;
+  width: 30px;
+  height: 21px;
+}
+.icon-RCO {
+  background-image: url(sprite.png);
+  background-position: 0px -120px;
+  width: 120px;
+  height: 60px;
+}
+.icon-Sport {
+  background-image: url(sprite.png);
+  background-position: 0px -60px;
+  width: 130px;
+  height: 60px;
+}
+.icon-Swan {
+  background-image: url(sprite.png);
+  background-position: -120px -120px;
+  width: 120px;
+  height: 60px;
+}
+.icon-Swanser {
+  background-image: url(sprite.png);
+  background-position: -130px 0px;
+  width: 130px;
+  height: 60px;
+}
