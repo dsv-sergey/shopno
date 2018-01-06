@@ -1,0 +1,27 @@
+{
+  "name": "sass_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass styles_sass -o styles_css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsv-sergey/shopno.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  },
+  "bugs": {
+    "url": "https://github.com/dsv-sergey/shopno/issues"
+  },
+  "homepage": "https://github.com/dsv-sergey/shopno#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-sass": "^3.3.7",
+    "normalize.css": "^7.0.0"
+  }
+}
