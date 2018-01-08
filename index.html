@@ -14,12 +14,40 @@
 <body>
     <header id="header">
         <div class="container grid">
-            <div class="logo"></div>
+            <a class="logo" href="#"></a>
             <a type="checkbox" class="nav"></a>
+
+            <div class="overlay">
+                <nav class="overlayMenu">
+                    <ul role="menu">
+                        <li><a href="#" role="menuitem">Parity</a></li>
+                        <li><a href="#" role="menuitem">Abstract</a></li>
+                        <li><a href="#" role="menuitem">Educated</a></li>
+                        <li><a href="#" role="menuitem">Decorum</a></li>
+                        <li><a href="#" role="menuitem">Tenuous</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="navBurger" role="navigation" id="navToggle"></div>
+
+            <h1 class="header_title">Say Hello to SHOPNO! AGENCY CORPORATE SHOPNO Theme</h1>
+            <a class="button" href="#footer">Contact us</a>
+            <img class="juice" src="images/header/juice.png">
         </div>
-        <h1 class="header_title">Say Hello to SHOPNO! AGENCY CORPORATE SHOPNO Theme</h1>
+
     </header>
     <section id="about">
+        <div class="container grid">
+            <h2 class="title_about">About us</h2>
+            <p class="">Lorem ipsum dolor sit amet event landing template</p>
+            <div class="about_slide">
+
+            </div>
+            <div class="about_slide_text">
+
+            </div>
+        </div>
 
     </section>
     <section id="works">
@@ -40,9 +68,11 @@
     <footer id="footer">
 
     </footer>
+
     <!-- на jQuery (необходим для Bootstrap - х JavaScript плагины) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Включают все скомпилированные плагины (ниже), или включать отдельные файлы по мере необходимости -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 </html>
