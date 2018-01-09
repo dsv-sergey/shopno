@@ -3,12 +3,12 @@
   grid-row: 1;
   justify-self: end;
   cursor: pointer;
-  background: #111;
+  background: #505050;
   box-sizing: border-box;
   background-clip: content-box;
   width: 30px;
   height: 24px;
-  border-top: 11px solid transparent;
+  border-top: 10px solid transparent;
   border-bottom: 11px solid transparent;
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
@@ -17,8 +17,8 @@
   .navBurger:before, .navBurger:after {
     content: "";
     position: absolute;
-    background: #111;
-    height: 2px;
+    background: #505050;
+    height: 3px;
     width: 100%;
     right: 0;
     will-change: rotate;

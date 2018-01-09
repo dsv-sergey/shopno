@@ -3,64 +3,16 @@
 @import "mixin"
 @import "fonts"
 @import "menu"
-
-//sprites
-.icon-AudioPro
-  background-image: url(../images/sprite.png)
-  background-position: -130px -60px
-  width: 120px
-  height: 60px
-
-.icon-Infinity
-  background-image: url(../images/sprite.png)
-  background-position: 0 0
-  width: 130px
-  height: 60px
-
-.icon-Logo
-  background-image: url(../images/sprite.png)
-  background-position: 0 -180px
-  width: 113px
-  height: 46px
-
-.icon-Menue
-  background-image: url(../images/sprite.png)
-  background-position: -113px -180px
-  width: 30px
-  height: 21px
-
-.icon-RCO
-  background-image: url(../images/sprite.png)
-  background-position: 0 -120px
-  width: 120px
-  height: 60px
-
-.icon-Sport
-  background-image: url(../images/sprite.png)
-  background-position: 0 -60px
-  width: 130px
-  height: 60px
-
-.icon-Swan
-  background-image: url(../images/sprite.png)
-  background-position: -120px -120px
-  width: 120px
-  height: 60px
-
-.icon-Swanser
-  background-image: url(../images/sprite.png)
-  background-position: -130px 0
-  width: 130px
-  height: 60px
+@import "sprites"
 
 .grid
   display: grid
 
 header
   .container
-      padding-top: 60px
-      grid-template-columns: 20% 60% 20%
-      grid-template-rows: 15% 55% 30%
+      padding-top: 64px
+      grid-template-columns: 15% 70% 15%
+      grid-template-rows: 15% 30% 20% 35%
   height: 806px
   min-width: 1440px
   background: $header_bg
@@ -71,10 +23,12 @@ header
   grid-row: 2
   grid-column-start: 1
   grid-column-end: 4
-  align-self: center
+  align-self: flex-end
   font-family: Montserrat-Bold , sans-serif
   font-size: 45px
   font-weight: bold
+  line-height: 1.4
+  letter-spacing: 1.2pt
   color: #505050
   text-transform: uppercase
   text-align: center
@@ -95,13 +49,15 @@ header
 .button
   grid-column: 2
   grid-row: 3
-  align-self: center
+  align-self: flex-end
+  justify-self: center
   border: 2px solid #777879
   border-radius: 2px
   width: 228px
   height: 49px
   text-align: center
   outline: none
+  line-height: 2.6
   text-decoration: none
   text-transform: uppercase
   font-size: 18px
@@ -109,5 +65,65 @@ header
   color: #3c3c3d
 
 .juice
-  grid-row: 3
+  grid-row: 4
   grid-column: 3
+
+//about--------------------------
+
+#about
+  height: 984px
+  background: $aboutUs_bg
+  box-sizing: border-box
+
+
+.title_about
+  font-family: Montserrat-Bold , sans-serif
+  font-weight: bold
+  font-size: 38px
+  letter-spacing: 1.3pt
+  color: rgba(0, 0, 0, 0.902)
+  text-transform: uppercase
+  padding-top: 120px
+  text-align: center
+
+//works--------------------------
+
+#works
+  .grid
+    grid-template-columns: auto 370px auto
+    grid-template-rows: 20% 40% 40%
+    grid-column-gap: 20px
+    grid-row-gap: 20px
+  height: 1166px
+  box-sizing: border-box
+
+#works
+  h2
+    grid-row: 1
+    grid-column-start: 1
+    grid-column-end: 4
+
+  p
+    grid-row: 1
+    grid-column-start: 1
+    grid-column-end: 4
+//services-----------------------
+
+#services
+  height: 1616px
+  background: $ourServices_bg
+  box-sizing: border-box
+
+//Проверка====================================!!!!!!!!!!!!!!!!!!!!
+.home-page
+  background: url("../Shopno one page.png")
+  width: 1440px
+  height: 8214px
+  box-sizing: border-box
+  opacity: 0.2
+  top: 0
+  left: 0
+
+.position-absolute
+  position: absolute
+  left: 0
