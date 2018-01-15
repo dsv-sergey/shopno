@@ -1131,6 +1131,241 @@
     height: 422px;
     z-index: 89;
 }
+/*team parts*/
+.Team_Part {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1440px;
+    height: 8214px;
+    z-index: 185;
+}
+.Title_ {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1440px;
+    height: 8214px;
+    z-index: 184;
+}
+.Lorem_ipsum_dolor_sit_amet_event_landing_template {
+    font-size: 17px;
+    font-family: "Merriweather";
+    color: rgba(0, 0, 0, 0.62);
+    text-transform: uppercase;
+    line-height: 1.647;
+    text-align: center;
+    position: absolute;
+    left: 425.938px;
+    top: 4732.001px;
+    z-index: 183;
+}
+.small_team {
+    font-size: 38px;
+    font-family: "Montserrat";
+    color: rgba(0, 0, 0, 0.902);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.737;
+    text-align: center;
+    position: absolute;
+    left: 582.469px;
+    top: 4695.997px;
+    z-index: 182;
+}
+.Team_Part {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1440px;
+    height: 8214px;
+    z-index: 180;
+}
+.Button {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1440px;
+    height: 8214px;
+    z-index: 179;
+}
+.Lorem_Ipsum_is_not_simply_is__an_action_designe {
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 1.5;
+    text-align: left;
+    position: absolute;
+    left: 589.937px;
+    top: 5167.546px;
+    width: 239px;
+    height: 64px;
+    z-index: 178;
+}
+.AL_RAYHAN___UI_Designer {
+    font-size: 20px;
+    font-family: "Merriweather";
+    color: rgba(39, 39, 39, 0.949);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: 589.938px;
+    top: 5122.198px;
+    z-index: 177;
+}
+.Social {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1440px;
+    height: 8214px;
+    z-index: 176;
+}
+. {
+    font-size: 15px;
+    font-family: "FontAwesome";
+    color: rgba(0, 0, 0, 0.702);
+    line-height: 1.6;
+    -moz-transform: matrix( 0.89891056439542,0,0,0.89891056439544,0,0);
+    -webkit-transform: matrix( 0.89891056439542,0,0,0.89891056439544,0,0);
+    -ms-transform: matrix( 0.89891056439542,0,0,0.89891056439544,0,0);
+    position: absolute;
+    left: 668.553px;
+    top: 5241.5px;
+    z-index: 175;
+}
+. {
+    font-size: 15px;
+    font-family: "FontAwesome";
+    color: rgba(0, 0, 0, 0.702);
+    line-height: 1.6;
+    -moz-transform: matrix( 0.89891056439542,0,0,0.89891056439544,0,0);
+    -webkit-transform: matrix( 0.89891056439542,0,0,0.89891056439544,0,0);
+    -ms-transform: matrix( 0.89891056439542,0,0,0.89891056439544,0,0);
+    position: absolute;
+    left: 643.053px;
+    top: 5241px;
+    z-index: 174;
+}
+. {
+    font-size: 15px;
+    font-family: "FontAwesome";
+    color: rgba(0, 0, 0, 0.702);
+    line-height: 1.6;
+    -moz-transform: matrix( 0.89891056439542,0,0,0.89891056439544,0,0);
+    -webkit-transform: matrix( 0.89891056439542,0,0,0.89891056439544,0,0);
+    -ms-transform: matrix( 0.89891056439542,0,0,0.89891056439544,0,0);
+    position: absolute;
+    left: 617.553px;
+    top: 5241px;
+    z-index: 173;
+}
+. {
+    font-size: 15px;
+    font-family: "FontAwesome";
+    color: rgba(0, 0, 0, 0.702);
+    line-height: 1.6;
+    -moz-transform: matrix( 0.89891056439542,0,0,0.89891056439544,0,0);
+    -webkit-transform: matrix( 0.89891056439542,0,0,0.89891056439544,0,0);
+    -ms-transform: matrix( 0.89891056439542,0,0,0.89891056439544,0,0);
+    position: absolute;
+    left: 592.053px;
+    top: 5240.5px;
+    z-index: 172;
+}
+._2 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1440px;
+    height: 8214px;
+    z-index: 169;
+}
+.Rectangle_40_copy_7 {
+    background-color: rgb(255, 73, 73);
+    position: absolute;
+    left: 920px;
+    top: 5330px;
+    width: 370px;
+    height: 440px;
+    z-index: 167;
+}
+.Rectangle_40_copy_7 {
+    background-color: rgb(255, 73, 73);
+    position: absolute;
+    left: 535px;
+    top: 5330px;
+    width: 370px;
+    height: 440px;
+    z-index: 165;
+}
+.Rectangle_40_copy_7 {
+    background-color: rgb(255, 73, 73);
+    position: absolute;
+    left: 149px;
+    top: 5330px;
+    width: 370px;
+    height: 440px;
+    z-index: 163;
+}
+.Rectangle_40_copy_6 {
+    background-color: rgb(255, 73, 73);
+    position: absolute;
+    left: 920px;
+    top: 4876px;
+    width: 370px;
+    height: 440px;
+    z-index: 161;
+}
+._2 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1440px;
+    height: 8214px;
+    z-index: 160;
+}
+.Shape_1 {
+    background-color: rgb(113, 246, 236);
+    opacity: 0.969;
+    position: absolute;
+    left: 564px;
+    top: 5041px;
+    width: 42px;
+    height: 37px;
+    z-index: 159;
+}
+.Rectangle_40_copy_4 {
+    background-color: rgb(109, 246, 235);
+    opacity: 0.98;
+    box-shadow: 0px 7px 16px 0px rgba(20, 20, 21, 0.18);
+    position: absolute;
+    left: 553px;
+    top: 5060px;
+    width: 335px;
+    height: 241px;
+    z-index: 158;
+}
+.Rectangle_40_copy_5 {
+    background-color: rgb(255, 73, 73);
+    position: absolute;
+    left: 535px;
+    top: 4876px;
+    width: 370px;
+    height: 440px;
+    z-index: 156;
+}
+.Rectangle_40 {
+    background-color: rgb(255, 73, 73);
+    position: absolute;
+    left: 149px;
+    top: 4876px;
+    width: 370px;
+    height: 440px;
+    z-index: 153;
+}
+
 /*testimonials*/
 .Testimonial {
     position: absolute;

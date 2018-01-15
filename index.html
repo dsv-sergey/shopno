@@ -7,10 +7,18 @@
     <title>SHOPNO</title>
     <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link href="node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss" rel="stylesheet">
-    <link href="styles_css/app.css" rel="stylesheet" type="text/css">
+    <link href="node_modules/animate-sass/_animate.scss" rel="stylesheet">
     <link href="fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="/node_modules/bootstrap/dist/css/bootstrap.css">
     <link href="/node_modules/normalize.css/normalize.css">
+    <link href="node_modules/owl.carousel/dist/assets/owl.carousel.css" rel="stylesheet">
+    <link href="node_modules/owl.carousel/dist/assets/owl.theme.default.css" rel="stylesheet">
+    <link href="styles_css/app.css" rel="stylesheet" type="text/css">
+    <script src="node_modules/wowjs/dist/wow.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </head>
 <body>
     <header id="header">
@@ -32,56 +40,130 @@
                     </ul>
                 </nav>
             </div>
-
             <div class="navBurger" role="navigation" id="navToggle"></div>
-
-            <h1 class="header_title"><div>Say Hello to <span>SHOPNO!</span></div> <span>AGENCY</span> CORPORATE SHOPNO Theme</h1>
+            <h1 class="header_title wow bounceInUp"><div>Say Hello to <span>SHOPNO!</span></div> <span>AGENCY</span> CORPORATE SHOPNO Theme</h1>
             <a class="button" href="#footer">Contact us</a>
             <img class="juice" src="images/header/juice.png">
         </div>
-
     </header>
     <section id="about">
-        <div class="container grid">
-            <h2 class="title_about">About us</h2>
-            <p class="">Lorem ipsum dolor sit amet event landing template</p>
-            <div class="about_slide">
-
+        <div class="container">
+            <div class="grid">
+            <h2 class="section_title_h2 wow bounceInUp" data-wow-duration="1.5s">About us</h2>
+            <h3 class="section_title_h3 wow bounceInUp" data-wow-duration="1.5s">Lorem ipsum dolor sit amet event landing template</h3>
             </div>
-            <div class="about_slide_text">
-
+            <div id="about-carousel" class="owl-carousel owl-theme owl-loaded">
+                <div class="item grid">
+                    <div class="">
+                        <img src="images/about-us/image.jpg">
+                    </div>
+                    <div class="">
+                        <h3 class="about_carousel_h3_title">We Actually Do amazing works</h3>
+                        <p>A visual approach is an approach to a runway at an airport conducted under instrument flight rules. The pilot must at all times have either the airport or the preceding aircraft in approach correct sight. conducted under instrument flight rules. The pilot must at all times.</p>
+                        <p>Preceding aircraft in approach correct sight. conducted under instrument flight rules.</p>
+                        <h3 class="about_carousel_h3_title">Why we are the great?</h3>
+                        <p>A visual approach is an approach to a runway at an airport conducted under instrument flight rules. <br> The preceding aircraft in approach correct sight.</p>
+                    </div>
+                </div>
+                <div class="item grid">
+                    <div class="">
+                        <img src="images/about-us/image1.jpg">
+                    </div>
+                    <div class="">
+                        <h3 class="about_carousel_h3_title">We Actually Do amazing works</h3>
+                        <p>A visual approach is an approach to a runway at an airport conducted under instrument flight rules. The pilot must at all times have either the airport or the preceding aircraft in approach correct sight. conducted under instrument flight rules. The pilot must at all times.</p>
+                        <p>Preceding aircraft in approach correct sight. conducted under instrument flight rules.</p>
+                        <h3 class="about_carousel_h3_title">Why we are the great?</h3>
+                        <p>A visual approach is an approach to a runway at an airport conducted under instrument flight rules. <br> The preceding aircraft in approach correct sight.</p>
+                    </div>
+                </div>
+                <div class="item grid">
+                    <div class="">
+                        <img src="images/about-us/image2.jpg">
+                    </div>
+                    <div class="">
+                        <h3 class="about_carousel_h3_title">We Actually Do amazing works</h3>
+                        <p>A visual approach is an approach to a runway at an airport conducted under instrument flight rules. The pilot must at all times have either the airport or the preceding aircraft in approach correct sight. conducted under instrument flight rules. The pilot must at all times.</p>
+                        <p>Preceding aircraft in approach correct sight. conducted under instrument flight rules.</p>
+                        <h3 class="about_carousel_h3_title">Why we are the great?</h3>
+                        <p>A visual approach is an approach to a runway at an airport conducted under instrument flight rules. <br> The preceding aircraft in approach correct sight.</p>
+                    </div>
+                </div>
+                <div class="item grid">
+                    <div class="">
+                        <img src="images/about-us/image3.jpg">
+                    </div>
+                    <div class="">
+                        <h3 class="about_carousel_h3_title">We Actually Do amazing works</h3>
+                        <p>A visual approach is an approach to a runway at an airport conducted under instrument flight rules. The pilot must at all times have either the airport or the preceding aircraft in approach correct sight. conducted under instrument flight rules. The pilot must at all times.</p>
+                        <p>Preceding aircraft in approach correct sight. conducted under instrument flight rules.</p>
+                        <h3 class="about_carousel_h3_title">Why we are the great?</h3>
+                        <p>A visual approach is an approach to a runway at an airport conducted under instrument flight rules. <br> The preceding aircraft in approach correct sight.</p>
+                    </div>
+                </div>
             </div>
         </div>
-
     </section>
     <section id="works">
         <div class="container grid">
-            <h2 class="title_about">Featured works</h2>
-            <p class="">Lorem ipsum dolor sit amet event landing template</p>
-            <img src="images/works/banner3.png" alt="cake">
-            <img src="images/works/5.png" alt="buisness card">
-            <img src="images/works/6.png" alt="bottle">
-            <img src="images/works/work4.png" alt="books">
-            <img src="images/works/9.png" alt="celebrate">
-            <img src="images/works/home_dietitian_sectionbg_1.png" alt="package">
+            <h2 class="section_title_h2 wow bounceInUp" data-wow-duration="1.5s">Featured works</h2>
+            <h3 class="section_title_h3 wow bounceInUp" data-wow-duration="1.5s">Lorem ipsum dolor sit amet event landing template</h3>
+            <div class="works_img">
+                <img class="wow zoomIn" src="images/works/banner3.png" alt="cake">
+                <img class="wow zoomIn" src="images/works/5.png" alt="buisness card">
+                <img class="wow zoomIn" src="images/works/6.png" alt="bottle">
+                <img class="wow zoomIn" src="images/works/work4.png" alt="books">
+                <img class="wow zoomIn" src="images/works/9.png" alt="celebrate">
+                <img class="wow zoomIn" src="images/works/home_dietitian_sectionbg_1.png" alt="package">
+            </div>
         </div>
     </section>
     <section id="services">
-        <div class="container grid">
-            <h2 class="title_about">Our services</h2>
-            <p class="">Lorem ipsum dolor sit amet event landing template</p>
+        <div class="container">
+            <div class="grid">
+                <h2 class="section_title_h2 wow bounceInUp" data-wow-duration="1.5s">Our services</h2>
+                <h3 class="section_title_h3 wow bounceInUp" data-wow-duration="1.5s">Lorem ipsum dolor sit amet event landing template</h3>
+            </div>
+            <div class="services_content grid">
+                <div class="services_content_1">
+                    <h3 class="services_content_h3_title">Designing is the cool love for</h3>
+                    <p>Suspendisse fringilla sed leo a pretium. Pellentesque ut consequat odio, sit amet consectetur ligula. Nullam aliquet porttitor mauris.</p>
+                    <div class="know_more"></div>
+                </div>
+                <div class="services_content_2">
+                    <h3 class="services_content_h3_title">Cool psd design</h3>
+                    <p>Our most popular service is our we know that sometimes it’s something and you middle most..</p>
+                    <div class="know_more"></div>
+                </div>
+                <div class="services_content_3">
+                    <h3 class="services_content_h3_title">Designing in the cool</h3>
+                    <p class=""></p>
+                </div>
+                <div class="services_content_4">
+                    <h3 class="services_content_h3_title">Psd to html kori</h3>
+                    <p class=""></p>
+                </div>
+                <div class="services_content_5">
+                    <h3 class="services_content_h3_title">Cool psd design</h3>
+                    <p class=""></p>
+                </div>
+                <div class="services_content_6">
+                    <h3 class="services_content_h3_title">Design is the cool for</h3>
+                    <p class=""></p>
+                </div>
+            </div>
         </div>
     </section>
     <section id="team">
         <div class="container grid">
-            <h2 class="title_about">Small team</h2>
-            <p class="">Lorem ipsum dolor sit amet event landing template</p>
+            <h2 class="section_title_h2 wow bounceInUp" data-wow-duration="1.5s">Small team</h2>
+            <h3 class="section_title_h3 wow bounceInUp" data-wow-duration="1.5s">Lorem ipsum dolor sit amet event landing template</h3>
         </div>
     </section>
     <section id="testimonials">
         <div class="container grid">
-            <h2 class="title_about">What they say</h2>
-            <p class="">Lorem ipsum dolor sit amet event landing template</p>
+            <h2 class="section_title_h2 wow bounceInUp" data-wow-duration="1.5s">What they say</h2>
+            <h3 class="section_title_h3 wow bounceInUp" data-wow-duration="1.5s">Lorem ipsum dolor sit amet event landing template</h3>
         </div>
     </section>
     <section id="partners">
@@ -91,11 +173,8 @@
 
     </footer>
     <!--<div class="position-absolute home-page"></div>-->
-
-    <!-- на jQuery (необходим для Bootstrap - х JavaScript плагины) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Включают все скомпилированные плагины (ниже), или включать отдельные файлы по мере необходимости -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="node_modules/owl.carousel/dist/owl.carousel.js"></script>
     <script src="js/menu.js"></script>
+    <script src="js/owlCarousel.js"></script>
 </body>
 </html>
