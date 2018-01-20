@@ -1,5 +1,6 @@
 header
   .container
+    height: 100%
     padding-top: 64px
     grid-template-columns: 15% 70% 15%
     grid-template-rows: 15% 30% 20% 35%
@@ -23,11 +24,10 @@ header
   text-transform: uppercase
   text-align: center
   text-shadow: 0 9px 10px rgba(0, 0, 0, 0.24)
+  span
+    background-color: $main_color
+    padding: 0 10px
 
-.container
-  width: 1140px
-  height: 100%
-  margin: 0 auto
 
 .logo
   @extend .icon-Logo
